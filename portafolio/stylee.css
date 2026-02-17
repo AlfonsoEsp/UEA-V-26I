@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background-color: rgb(132, 0, 255);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container div {
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+body {
+    background-color: lab(5.48% 32.19 -43.31); 
+    color: #f2ff00; 
+    margin: 0;
+    padding: 20px;
+}
+
+body.photo-page {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.photo-page a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+body.photo-page a:hover {
+    color: #ffd700;
+}
