@@ -1,0 +1,26 @@
+
+body {
+	background-color: #000000; 
+	color: #000000; 
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #2b00ff; 
+	font-size: 30px; 
+	font-weight: bold;
+	margin: 40px 0 10px 0;
+}
+
+#nombre {
+	color: #a800e0;
+}
+#edad {
+	color: #000dff;
+}
+#ciudad {
+	color: #0095ff;
+}
