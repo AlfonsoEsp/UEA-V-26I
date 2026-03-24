@@ -1,4 +1,4 @@
-// BUSCAR RESPUESTA EN JSON.JSON
+
 fetch('json.json')
     .then(response => response.json())  
     .then(json => {

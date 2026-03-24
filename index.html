@@ -1,25 +1,55 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera página en internet</title>
-    <style>
-        body {
-            background-color: #842def; /* Corregido: 'background' */
-            font-size: 40px;
-            font-family: Arial, Helvetica, sans-serif; /* Corregido: 'Helvetica' */
-            color: white;
-        }
-    </style>
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="portafolio/style.css">
 </head>
 <body>
-    <p>
-        ¡Mi primera página desplegada en internet!
-    </p>
-    
-    <p style="color: #e52def;"> 
-        ¡Con colores distintos!
-    </p>
+    <h1>Portafolio</h1>
+    <nav>
+        <a href="portafolio/dibujosamano.html">a mano</a>
+        <a href="portafolio/dibujodigital.html">digital</a>
+        <a href="portafolio/video.html">video</a>
+        <a href="portafolio/medios.html">medios</a>
+        <a href="portafolio/3D/AFRAME.html">3D</a>
+    </nav>
+
+    <div class="container">
+        <div><img src="portafolio/assets/foto.jpeg" alt="Foto de Luis Alfonso" width="400"></div>
+        <div><img src="portafolio/assets/io.jpg" alt="Imagen representativa" width="auto"></div>
+    </div>
+
+    <section>
+        <h2>Luis Alfonso Esperanza Benitez</h2>
+        <p>
+            Tengo 22 años, mi color favorito es el negro y me apasiona el dibujo.
+            Elegí la Licenciatura en Artes y Comunicaciones Digitales para perfeccionar mis habilidades en este entorno conectado,
+            utilizando herramientas como Visual Studio Code, Blender y Unreal Engine.
+            En este sitio web presento una selección de mis obras, integradas en una plataforma desarrollada mediante HTML.
+            Durante mi formación, logré dominar diversas herramientas técnicas; aunque inicialmente mi enfoque era puramente práctico
+            —centrado en el dibujo y el modelado—, la universidad me permitió integrar conocimientos teóricos y tecnológicos que enriquecen estos ámbitos.
+            Este espacio refleja mi evolución constante como artista digital.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <div class="contact-buttons">
+            <a class="icon-btn" href="mailto:Luislap483@gmail.com" aria-label="Enviar correo">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M3 6h18v12H3V6zm9 6 9-6H3l9 6zm0 2-9-6v10h18V8l-9 6z"/>
+                </svg>
+            </a>
+            <a class="icon-btn" href="https://www.instagram.com/alfons0_esp" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6zm5.2-.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <script src="portafolio/script.js"></script>
 </body>
 </html>
