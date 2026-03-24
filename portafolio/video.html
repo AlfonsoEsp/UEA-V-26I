@@ -1,30 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>video</title>
+    <title>Video</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<body>
-    <div class="nav-links">
-        <a href="index.html">Volver al portafolio</a>
-        <a href="dibujodigital.html">Digital</a>
-        <a href="dibujosamano.html">A mano</a>
-        <a href="medios.html">Medios</a>
-    </div>
-    <div style="text-align:center; margin-top:20px;">
-        <video src="assets/01.mp4" controls width="400"></video>
-    </div>
-    <div class="divgral">
-        <p>audio a mp3</p>
-        <audio src="assets/WhatsAppAudio.mp3" controls></audio>
-         <p>audio a oog</p>
+<body class="photo-page">
+    <nav class="nav">
+        <a href="index.html">index</a>
+        <a href="dibujosamano.html">a mano</a>
+        <a href="dibujodigital.html">digital</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
 
-        <audio src="assets/WhatsAppAudio.ogg" controls></audio>
-       
-    </div>
+    <main class="page">
+        <section class="hero">
+            <h1 class="title">Video y audio</h1>
+            <p class="subtitle">Pieza audiovisual y pruebas de audio.</p>
+        </section>
 
+        <section class="media">
+            <div style="text-align:center; margin-top:20px;">
+                <video src="assets/01.mp4" controls width="400"></video>
+            </div>
+            <div class="divgral">
+                <p>Audio mp3</p>
+                <audio src="assets/WhatsAppAudio.mp3" controls></audio>
+                <p>Audio ogg</p>
+                <audio src="assets/WhatsAppAudio.ogg" controls></audio>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
